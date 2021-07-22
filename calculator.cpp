@@ -13,7 +13,7 @@ double Calculator::Calculate(double a,char op ,double b)
         case '*':
               return a * b;
         case '/':
-              return a / b;
+              return (double)a / b;
         case '^':
               return pow(a,b);
         defalut:
